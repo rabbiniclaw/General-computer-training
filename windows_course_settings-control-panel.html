@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎛️ לוח הבקרה הקלאסי (Control Panel)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>🎛️ לוח הבקרה הקלאסי (Control Panel)</h1>
+            <p class="subtitle">צלילה לפונקציות העומק ומערכות המורשת של ווינדוס</p>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <a href="settings-base.html" class="back-btn">⬅️ חזרה לבסיס ההגדרות</a>
+
+        <section class="card" style="border-right-color: #00b4db; background-color: #eef9fc;">
+            <h2>מרכז השליטה למתקדמים</h2>
+            <p><strong>לוח הבקרה (Control Panel)</strong> הוא מרכז הניהול ההיסטורי של ווינדוס. גם בגרסאות העדכניות ביותר, מיקרוסופט שומרת עליו מאחר שהוא מכיל הגדרות עומק וכלים מתקדמים שאינם קיימים באפליקציית ההגדרות הרגילה. שליטה בלוח הבקרה תהפוך אתכם ממשתמשים רגילים למנהלי מערכת עצמאיים.</p>
+        </section>
+
+        <section class="card">
+            <h2>1. מנהל ההתקנים (Device Manager) 🛠️</h2>
+            <p>הכלי המרכזי לפתרון בעיות חומרה ורכיבים פיזיים במחשב:</p>
+            <ul>
+                <li><strong>מה זה עושה?</strong> מציג רשימה מלאה של כל הרכיבים המחוברים למחשב (כרטיס מסך, כרטיס קול, מעבד, חיבורי USB, מצלמה ועוד).</li>
+                <li><strong>זיהוי בעיות:</strong> אם רכיב מסוים לא עובד (למשל המצלמה הפסיקה לפעול), יופיע לידו במנהל ההתקנים <span style="color: #d9534f; font-weight: bold;">משולש צהוב עם סימן קריאה</span>.</li>
+                <li><strong>עדכון מנהלי התקנים (Drivers):</strong> לחיצה ימנית על רכיב ובחירה ב-"עדכן מנהל התקן" (Update Driver) תגרום לווינדוס לחפש באינטרנט את תוכנת ההפעלה המעודכנת ביותר עבורו, מה שפתר 90% מבעיות החומרה.</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>2. הגדרות אזור ושפה (Region & Language) 🌍</h2>
+            <p>התאמת המחשב למיקום הגיאוגרפי ולפורמט העבודה שלכם:</p>
+            <ul>
+                <li><strong>תבנית תאריך ושעה:</strong> קביעת האופן שבו יוצגו השעה והתאריך במחשב (למשל פורמט ישראלי: DD/MM/YYYY לעומת אמריקאי: MM/DD/YYYY).</li>
+                <li><strong>מיקום מנהלתי (Administrative Language settings):</strong> הגדרה קריטית הנקראת "שפה עבור תוכניות שאינן Unicode". אם אתם מתקינים תוכנה ישנה בעברית והטקסט בה מופיע כג'יבריש (סימני שאלה או אותיות מוזרות), שינוי הגדרה זו ל-"עברית" יפתור את הבעיה מיד.</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>3. ניהול צריכת חשמל מתקדם (Power Options) 🔌</h2>
+            <p>שליטה עמוקה בביצועי המחשב ובניצול החשמל שלו:</p>
+            <ul>
+                <li><strong>תוכניות צריכת חשמל (Power Plans):</strong> בחירה בין מצב "ביצועים גבוהים" (High Performance) המנצל את מקסימום כוחו של המחשב, לבין מצב "מאוזן" (Balanced) החוסך באנרגיה.</li>
+                <li><strong>הגדרת כפתורי המחשב:</strong> כאן ניתן לקבוע מה יקרה כאשר לוחצים לחיצה קצרה על כפתור הכיבוי הפיזי של המחשב, או מה קורה כאשר סוגרים את מסך המחשב הנייד (האם המחשב יכבה, ייכנס למצב שינה, או ימשיך לעבוד כרגיל ברקע).</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>4. גיבוי ושחזור מורשת (Backup and Restore) 💾</h2>
+            <p>יצירת נקודת הצלה מלאה לכל מערכת ההפעלה:</p>
+            <ul>
+                <li><strong>צילום מצב (System Image):</strong> כלי המאפשר לכם ליצור העתק מושלם ומדויק של כל כונן המערכת (כולל מערכת ההפעלה, כל התוכנות המותקנות, הסיסמאות והקבצים).</li>
+                <li><strong>לשעת חירום:</strong> אם המחשב קורס לחלוטין או הדיסק הקשיח נשרף, ניתן להשתמש בגיבוי זה כדי להחזיר את המחשב החדש בדיוק לאותו מצב שבו הוא היה בזמן הגיבוי, ללא צורך בהתקנת הכל מחדש.</li>
+            </ul>
+        </section>
+
+        <section class="card" style="border-right-color: #5cb85c; background-color: #f9fdf9;">
+            <h2>💪 תרגול מעשי ללומד: לוח הבקרה</h2>
+            <p>בצעו את המשימות הבאות כדי להכיר את כלי המערכת המתקדמים:</p>
+            <div class="checkbox-item">
+                <input type="checkbox" id="cp-task1">
+                <label for="cp-task1">פתחו את לוח הבקרה (על ידי חיפוש בשורת המשימות) ושנו את מצב התצוגה בפינה העליונה ל-"סמלים קטנים" (Small icons) כדי לראות את כל האפשרויות.</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="cp-task2">
+                <label for="cp-task2">מצאו את "מנהל ההתקנים" (Device Manager), פתחו אותו וודאו שאין אף רכיב שמסומן לידו סימן אזהרה צהוב.</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="cp-task3">
+                <label for="cp-task3">היכנסו ל-"אפשרויות צריכת חשמל" (Power Options) ובדקו מה מוגדר שיקרה כאשר אתם לוחצים על כפתור ההפעלה של המחשב.</label>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© קורס ווינדוס למשתמש - כל הזכויות שמורות</p>
+    </footer>
+
+</body>
+</html>
